@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0285F81D4B430A00F688ED /* UITableView+CellLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0285F71D4B430A00F688ED /* UITableView+CellLine.m */; };
+		7C02860E1D4CF12700F688ED /* NSArray+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02860D1D4CF12700F688ED /* NSArray+HelperKit.m */; };
+		7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0286101D4CF55900F688ED /* NSString+HelperKit.m */; };
+		7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */; };
+		7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */; };
 		7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E391D475AF1007CC4C3 /* main.m */; };
 		7C4D1E3D1D475AF1007CC4C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E3C1D475AF1007CC4C3 /* AppDelegate.m */; };
 		7C4D1E401D475AF1007CC4C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E3F1D475AF1007CC4C3 /* ViewController.m */; };
@@ -15,6 +20,10 @@
 		7C4D1E481D475AF1007CC4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D1E461D475AF1007CC4C3 /* LaunchScreen.storyboard */; };
 		7C4D1E531D475AF1007CC4C3 /* ProjectBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E521D475AF1007CC4C3 /* ProjectBaseTests.m */; };
 		7C4D1E5E1D475AF1007CC4C3 /* ProjectBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */; };
+		7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */; };
+		7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */; };
+		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
+		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +46,18 @@
 
 /* Begin PBXFileReference section */
 		0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0285F61D4B430A00F688ED /* UITableView+CellLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CellLine.h"; sourceTree = "<group>"; };
+		7C0285F71D4B430A00F688ED /* UITableView+CellLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CellLine.m"; sourceTree = "<group>"; };
+		7C0286071D4CEF1500F688ED /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		7C02860A1D4CEF2300F688ED /* ProjectBase.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectBase.pch; sourceTree = "<group>"; };
+		7C02860C1D4CF12700F688ED /* NSArray+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HelperKit.h"; sourceTree = "<group>"; };
+		7C02860D1D4CF12700F688ED /* NSArray+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HelperKit.m"; sourceTree = "<group>"; };
+		7C02860F1D4CF55900F688ED /* NSString+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HelperKit.h"; sourceTree = "<group>"; };
+		7C0286101D4CF55900F688ED /* NSString+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HelperKit.m"; sourceTree = "<group>"; };
+		7C4A8FBB1D475DC300717F5F /* UIView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HelperKit.h"; sourceTree = "<group>"; };
+		7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HelperKit.m"; sourceTree = "<group>"; };
+		7C4A8FBE1D4765D300717F5F /* UIDevice+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HelperKit.h"; sourceTree = "<group>"; };
+		7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HelperKit.m"; sourceTree = "<group>"; };
 		7C4D1E351D475AF1007CC4C3 /* ProjectBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4D1E391D475AF1007CC4C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C4D1E3B1D475AF1007CC4C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +74,14 @@
 		7C4D1E591D475AF1007CC4C3 /* ProjectBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectBaseUITests.m; sourceTree = "<group>"; };
 		7C4D1E5F1D475AF1007CC4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C66DEB91D47706000D802BA /* UIColor+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HelperKit.h"; sourceTree = "<group>"; };
+		7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperKit.m"; sourceTree = "<group>"; };
+		7CCE2BD41D49D8A600F87AF4 /* UIImageView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HelperKit.h"; sourceTree = "<group>"; };
+		7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HelperKit.m"; sourceTree = "<group>"; };
+		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
+		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
+		7CF9DC871D48A7C4003DD4AC /* UIImage+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HelperKit.h"; sourceTree = "<group>"; };
+		7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HelperKit.m"; sourceTree = "<group>"; };
 		EEB7E6677247169333BCF65E /* Pods-ProjectBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBase/Pods-ProjectBase.debug.xcconfig"; sourceTree = "<group>"; };
 		F797F5F6C4BDD62594CE4842 /* Pods-ProjectBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBase/Pods-ProjectBase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +129,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7C0286051D4CEF1500F688ED /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				7C0286061D4CEF1500F688ED /* Macros */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		7C0286061D4CEF1500F688ED /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				7C0286071D4CEF1500F688ED /* Macros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		7C0286081D4CEF2300F688ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7C0286091D4CEF2300F688ED /* PCH */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7C0286091D4CEF2300F688ED /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				7C02860A1D4CEF2300F688ED /* ProjectBase.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		7C02860B1D4CF06000F688ED /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7C02860C1D4CF12700F688ED /* NSArray+HelperKit.h */,
+				7C02860D1D4CF12700F688ED /* NSArray+HelperKit.m */,
+				7C02860F1D4CF55900F688ED /* NSString+HelperKit.h */,
+				7C0286101D4CF55900F688ED /* NSString+HelperKit.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7C4A8FB91D475CB900717F5F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7C02860B1D4CF06000F688ED /* Foundation */,
+				7C4A8FBA1D475D8300717F5F /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7C4A8FBA1D475D8300717F5F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C4A8FBB1D475DC300717F5F /* UIView+HelperKit.h */,
+				7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */,
+				7C4A8FBE1D4765D300717F5F /* UIDevice+HelperKit.h */,
+				7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */,
+				7C66DEB91D47706000D802BA /* UIColor+HelperKit.h */,
+				7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */,
+				7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */,
+				7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */,
+				7CF9DC871D48A7C4003DD4AC /* UIImage+HelperKit.h */,
+				7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */,
+				7CCE2BD41D49D8A600F87AF4 /* UIImageView+HelperKit.h */,
+				7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */,
+				7C0285F61D4B430A00F688ED /* UITableView+CellLine.h */,
+				7C0285F71D4B430A00F688ED /* UITableView+CellLine.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		7C4D1E2C1D475AF1007CC4C3 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +227,9 @@
 		7C4D1E371D475AF1007CC4C3 /* ProjectBase */ = {
 			isa = PBXGroup;
 			children = (
+				7C4A8FB91D475CB900717F5F /* Category */,
+				7C0286051D4CEF1500F688ED /* Expand */,
+				7C0286081D4CEF2300F688ED /* Resource */,
 				7C4D1E3B1D475AF1007CC4C3 /* AppDelegate.h */,
 				7C4D1E3C1D475AF1007CC4C3 /* AppDelegate.m */,
 				7C4D1E3E1D475AF1007CC4C3 /* ViewController.h */,
@@ -346,8 +451,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4D1E401D475AF1007CC4C3 /* ViewController.m in Sources */,
+				7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */,
+				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
+				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
+				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7C4D1E3D1D475AF1007CC4C3 /* AppDelegate.m in Sources */,
+				7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */,
+				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
+				7C0285F81D4B430A00F688ED /* UITableView+CellLine.m in Sources */,
 				7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */,
+				7C02860E1D4CF12700F688ED /* NSArray+HelperKit.m in Sources */,
+				7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,11 +604,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ProjectBase/Resource/PCH/ProjectBase.pch";
 				INFOPLIST_FILE = ProjectBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangyunfei.www.ProjectBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -504,11 +621,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ProjectBase/Resource/PCH/ProjectBase.pch";
 				INFOPLIST_FILE = ProjectBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangyunfei.www.ProjectBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

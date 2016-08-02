@@ -3,5 +3,5 @@ inhibit_all_warnings!
 
 
 target 'ProjectBase' do
-
+    pod 'Masonry', '~> 1.0.1'
 end
