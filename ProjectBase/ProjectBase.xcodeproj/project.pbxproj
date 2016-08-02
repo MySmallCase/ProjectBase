@@ -21,6 +21,7 @@
 		7C4D1E531D475AF1007CC4C3 /* ProjectBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E521D475AF1007CC4C3 /* ProjectBaseTests.m */; };
 		7C4D1E5E1D475AF1007CC4C3 /* ProjectBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */; };
 		7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */; };
+		7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */; };
 		7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
@@ -76,6 +77,8 @@
 		7C4D1E5F1D475AF1007CC4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C66DEB91D47706000D802BA /* UIColor+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HelperKit.h"; sourceTree = "<group>"; };
 		7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperKit.m"; sourceTree = "<group>"; };
+		7CBE8C1D1D50C31D0032A162 /* NSDate+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HelperKit.h"; sourceTree = "<group>"; };
+		7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HelperKit.m"; sourceTree = "<group>"; };
 		7CCE2BD41D49D8A600F87AF4 /* UIImageView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HelperKit.h"; sourceTree = "<group>"; };
 		7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HelperKit.m"; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				7C02860D1D4CF12700F688ED /* NSArray+HelperKit.m */,
 				7C02860F1D4CF55900F688ED /* NSString+HelperKit.h */,
 				7C0286101D4CF55900F688ED /* NSString+HelperKit.m */,
+				7CBE8C1D1D50C31D0032A162 /* NSDate+HelperKit.h */,
+				7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 		7C4D1E371D475AF1007CC4C3 /* ProjectBase */ = {
 			isa = PBXGroup;
 			children = (
+				7CBE8C1A1D508E9F0032A162 /* Libs */,
 				7C4A8FB91D475CB900717F5F /* Category */,
 				7C0286051D4CEF1500F688ED /* Expand */,
 				7C0286081D4CEF2300F688ED /* Resource */,
@@ -267,6 +273,21 @@
 				7C4D1E5F1D475AF1007CC4C3 /* Info.plist */,
 			);
 			path = ProjectBaseUITests;
+			sourceTree = "<group>";
+		};
+		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7CBE8C271D50E49B0032A162 /* EaseBlankPage(空白页提示) */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		7CBE8C271D50E49B0032A162 /* EaseBlankPage(空白页提示) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "EaseBlankPage(空白页提示)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */,
 				7C4D1E401D475AF1007CC4C3 /* ViewController.m in Sources */,
 				7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */,
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
