@@ -23,6 +23,7 @@
 		7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */; };
 		7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */; };
 		7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */; };
+		7CF044911D519060006AE4C6 /* EaseBlankPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF044901D519060006AE4C6 /* EaseBlankPage.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
@@ -81,6 +82,9 @@
 		7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HelperKit.m"; sourceTree = "<group>"; };
 		7CCE2BD41D49D8A600F87AF4 /* UIImageView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HelperKit.h"; sourceTree = "<group>"; };
 		7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HelperKit.m"; sourceTree = "<group>"; };
+		7CF0448F1D519060006AE4C6 /* EaseBlankPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBlankPage.h; sourceTree = "<group>"; };
+		7CF044901D519060006AE4C6 /* EaseBlankPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseBlankPage.m; sourceTree = "<group>"; };
+		7CF044921D51969E006AE4C6 /* importFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importFile.h; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
 		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
 		7CF9DC871D48A7C4003DD4AC /* UIImage+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HelperKit.h"; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				7C0286071D4CEF1500F688ED /* Macros.h */,
+				7CF044921D51969E006AE4C6 /* importFile.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -286,6 +291,8 @@
 		7CBE8C271D50E49B0032A162 /* EaseBlankPage(空白页提示) */ = {
 			isa = PBXGroup;
 			children = (
+				7CF0448F1D519060006AE4C6 /* EaseBlankPage.h */,
+				7CF044901D519060006AE4C6 /* EaseBlankPage.m */,
 			);
 			path = "EaseBlankPage(空白页提示)";
 			sourceTree = "<group>";
@@ -482,6 +489,7 @@
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
 				7C0285F81D4B430A00F688ED /* UITableView+CellLine.m in Sources */,
 				7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */,
+				7CF044911D519060006AE4C6 /* EaseBlankPage.m in Sources */,
 				7C02860E1D4CF12700F688ED /* NSArray+HelperKit.m in Sources */,
 				7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */,
 			);
