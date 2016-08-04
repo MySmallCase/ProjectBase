@@ -7,10 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "BlankPageController.h"
 
-#import "NSDate+HelperKit.h"
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
-@interface ViewController ()
+@property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, strong) NSArray *libsArray;
 
 @end
 
@@ -19,9 +22,55 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.view addSubview:self.tableView];
+    [self settingAutoLayout];
     
+    [self.tableView reloadData];
     
-    
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.libsArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifier = @"identifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    cell.textLabel.text = self.libsArray[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        BlankPageController *blank = [[BlankPageController alloc] init];
+        [self.navigationController pushViewController:blank animated:YES];
+    }
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] init];
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+    }
+    return _tableView;
+}
+
+- (NSArray *)libsArray {
+    if (!_libsArray) {
+        _libsArray = [[NSArray alloc] init];
+        _libsArray = @[@"空白页提示"];
+    }
+    return _libsArray;
+}
+
+- (void)settingAutoLayout {
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(self.view);
+    }];
 }
 
 
