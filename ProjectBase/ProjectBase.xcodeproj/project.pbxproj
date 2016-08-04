@@ -10,6 +10,13 @@
 		7C0285F81D4B430A00F688ED /* UITableView+CellLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0285F71D4B430A00F688ED /* UITableView+CellLine.m */; };
 		7C02860E1D4CF12700F688ED /* NSArray+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02860D1D4CF12700F688ED /* NSArray+HelperKit.m */; };
 		7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0286101D4CF55900F688ED /* NSString+HelperKit.m */; };
+		7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E5F1D537F7100EC8892 /* LoadingView.m */; };
+		7C1E3E631D53806C00EC8892 /* loading_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3E611D53806C00EC8892 /* loading_logo@2x.png */; };
+		7C1E3E641D53806C00EC8892 /* loading_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3E621D53806C00EC8892 /* loading_logo@3x.png */; };
+		7C1E3E671D53807400EC8892 /* loading_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3E651D53807400EC8892 /* loading_loop@2x.png */; };
+		7C1E3E681D53807400EC8892 /* loading_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3E661D53807400EC8892 /* loading_loop@3x.png */; };
+		7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */; };
+		7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */; };
 		7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */; };
 		7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */; };
 		7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E391D475AF1007CC4C3 /* main.m */; };
@@ -64,6 +71,16 @@
 		7C02860D1D4CF12700F688ED /* NSArray+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HelperKit.m"; sourceTree = "<group>"; };
 		7C02860F1D4CF55900F688ED /* NSString+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HelperKit.h"; sourceTree = "<group>"; };
 		7C0286101D4CF55900F688ED /* NSString+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HelperKit.m"; sourceTree = "<group>"; };
+		7C1E3E5E1D537F7100EC8892 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		7C1E3E5F1D537F7100EC8892 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		7C1E3E611D53806C00EC8892 /* loading_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_logo@2x.png"; sourceTree = "<group>"; };
+		7C1E3E621D53806C00EC8892 /* loading_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_logo@3x.png"; sourceTree = "<group>"; };
+		7C1E3E651D53807400EC8892 /* loading_loop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_loop@2x.png"; sourceTree = "<group>"; };
+		7C1E3E661D53807400EC8892 /* loading_loop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_loop@3x.png"; sourceTree = "<group>"; };
+		7C1E3E691D5381DC00EC8892 /* UIView+LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LoadingView.h"; sourceTree = "<group>"; };
+		7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadingView.m"; sourceTree = "<group>"; };
+		7C1E3E6D1D5383BB00EC8892 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
 		7C4A8FBB1D475DC300717F5F /* UIView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HelperKit.h"; sourceTree = "<group>"; };
 		7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HelperKit.m"; sourceTree = "<group>"; };
 		7C4A8FBE1D4765D300717F5F /* UIDevice+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HelperKit.h"; sourceTree = "<group>"; };
@@ -200,6 +217,31 @@
 				7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7C1E3E5D1D537F5C00EC8892 /* LoadingView(加载动画) */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E3E6C1D5383A700EC8892 /* demo */,
+				7C1E3E691D5381DC00EC8892 /* UIView+LoadingView.h */,
+				7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */,
+				7C1E3E5E1D537F7100EC8892 /* LoadingView.h */,
+				7C1E3E5F1D537F7100EC8892 /* LoadingView.m */,
+				7C1E3E651D53807400EC8892 /* loading_loop@2x.png */,
+				7C1E3E661D53807400EC8892 /* loading_loop@3x.png */,
+				7C1E3E611D53806C00EC8892 /* loading_logo@2x.png */,
+				7C1E3E621D53806C00EC8892 /* loading_logo@3x.png */,
+			);
+			path = "LoadingView(加载动画)";
+			sourceTree = "<group>";
+		};
+		7C1E3E6C1D5383A700EC8892 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E3E6D1D5383BB00EC8892 /* LoadingViewController.h */,
+				7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 		7C4A8FB91D475CB900717F5F /* Category */ = {
@@ -348,6 +390,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C1E3E5D1D537F5C00EC8892 /* LoadingView(加载动画) */,
 				7CBC6D441D523AC600A0C443 /* EaseBlockPage(空白页提示) */,
 			);
 			path = Libs;
@@ -460,11 +503,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBC6DB21D532F4200A0C443 /* blankpage_button_reload@2x.png in Resources */,
+				7C1E3E681D53807400EC8892 /* loading_loop@3x.png in Resources */,
 				7CBC6DB61D532F4200A0C443 /* blankpage_image_Sleep@3x.png in Resources */,
 				7C4D1E481D475AF1007CC4C3 /* LaunchScreen.storyboard in Resources */,
 				7CBC6DB51D532F4200A0C443 /* blankpage_image_Sleep@2x.png in Resources */,
 				7CBC6DB41D532F4200A0C443 /* blankpage_image_loadFail@3x.png in Resources */,
+				7C1E3E641D53806C00EC8892 /* loading_logo@3x.png in Resources */,
 				7CBC6DB31D532F4200A0C443 /* blankpage_image_loadFail@2x.png in Resources */,
+				7C1E3E671D53807400EC8892 /* loading_loop@2x.png in Resources */,
+				7C1E3E631D53806C00EC8892 /* loading_logo@2x.png in Resources */,
 				7C4D1E451D475AF1007CC4C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,10 +592,13 @@
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
 				7CBC6D671D52E36F00A0C443 /* CMViewController.m in Sources */,
 				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
+				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7C4D1E3D1D475AF1007CC4C3 /* AppDelegate.m in Sources */,
+				7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */,
 				7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */,
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
+				7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */,
 				7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */,
 				7CBC6D5C1D523B4400A0C443 /* UIView+EaseBlankPageView.m in Sources */,
 				7C0285F81D4B430A00F688ED /* UITableView+CellLine.m in Sources */,

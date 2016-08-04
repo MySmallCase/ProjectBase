@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+
 #import "BlankPageController.h"
+#import "LoadingViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -48,6 +50,10 @@
         BlankPageController *blank = [[BlankPageController alloc] init];
         [self.navigationController pushViewController:blank animated:YES];
     }
+    if (indexPath.row == 1) {
+        LoadingViewController *loading = [[LoadingViewController alloc] init];
+        [self.navigationController pushViewController:loading animated:YES];
+    }
 }
 
 - (UITableView *)tableView {
@@ -62,7 +68,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示"];
+        _libsArray = @[@"空白页提示",@"加载动画"];
     }
     return _libsArray;
 }
