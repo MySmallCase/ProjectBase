@@ -39,6 +39,7 @@
 		7CBC6DB61D532F4200A0C443 /* blankpage_image_Sleep@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBC6DB11D532F4200A0C443 /* blankpage_image_Sleep@3x.png */; };
 		7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */; };
 		7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */; };
+		7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE32D161D59B1F200251F62 /* Alphabetically.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
@@ -121,6 +122,8 @@
 		7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HelperKit.m"; sourceTree = "<group>"; };
 		7CCE2BD41D49D8A600F87AF4 /* UIImageView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HelperKit.h"; sourceTree = "<group>"; };
 		7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HelperKit.m"; sourceTree = "<group>"; };
+		7CE32D151D59B1F200251F62 /* Alphabetically.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alphabetically.h; sourceTree = "<group>"; };
+		7CE32D161D59B1F200251F62 /* Alphabetically.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alphabetically.m; sourceTree = "<group>"; };
 		7CF044921D51969E006AE4C6 /* importFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importFile.h; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
 		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
@@ -390,10 +393,20 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7CE32D141D59B1F200251F62 /* Alphabetically(拼音排序) */,
 				7C1E3E5D1D537F5C00EC8892 /* LoadingView(加载动画) */,
 				7CBC6D441D523AC600A0C443 /* EaseBlockPage(空白页提示) */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		7CE32D141D59B1F200251F62 /* Alphabetically(拼音排序) */ = {
+			isa = PBXGroup;
+			children = (
+				7CE32D151D59B1F200251F62 /* Alphabetically.h */,
+				7CE32D161D59B1F200251F62 /* Alphabetically.m */,
+			);
+			path = "Alphabetically(拼音排序)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,6 +604,7 @@
 				7CBC6D6A1D52F18200A0C443 /* NavigationController.m in Sources */,
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
 				7CBC6D671D52E36F00A0C443 /* CMViewController.m in Sources */,
+				7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */,
 				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
 				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
