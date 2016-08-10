@@ -26,6 +26,7 @@
 		7C4D1E531D475AF1007CC4C3 /* ProjectBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E521D475AF1007CC4C3 /* ProjectBaseTests.m */; };
 		7C4D1E5E1D475AF1007CC4C3 /* ProjectBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */; };
 		7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */; };
+		7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A21D5AC6A400F16033 /* LineMenuView.m */; };
 		7CBC6D5B1D523B4400A0C443 /* EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D571D523B4400A0C443 /* EaseBlankPageView.m */; };
 		7CBC6D5C1D523B4400A0C443 /* UIView+EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D591D523B4400A0C443 /* UIView+EaseBlankPageView.m */; };
 		7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D611D52DCFD00A0C443 /* BlankPageController.m */; };
@@ -40,6 +41,7 @@
 		7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */; };
 		7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */; };
 		7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE32D161D59B1F200251F62 /* Alphabetically.m */; };
+		7CE32D1B1D59C96A00251F62 /* LineMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE32D1A1D59C96A00251F62 /* LineMenuItem.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
@@ -101,6 +103,8 @@
 		7C4D1E5F1D475AF1007CC4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C66DEB91D47706000D802BA /* UIColor+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HelperKit.h"; sourceTree = "<group>"; };
 		7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperKit.m"; sourceTree = "<group>"; };
+		7C8328A11D5AC6A400F16033 /* LineMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMenuView.h; sourceTree = "<group>"; };
+		7C8328A21D5AC6A400F16033 /* LineMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMenuView.m; sourceTree = "<group>"; };
 		7CBC6D561D523B4400A0C443 /* EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBlankPageView.h; sourceTree = "<group>"; };
 		7CBC6D571D523B4400A0C443 /* EaseBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseBlankPageView.m; sourceTree = "<group>"; };
 		7CBC6D581D523B4400A0C443 /* UIView+EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EaseBlankPageView.h"; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 		7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HelperKit.m"; sourceTree = "<group>"; };
 		7CE32D151D59B1F200251F62 /* Alphabetically.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alphabetically.h; sourceTree = "<group>"; };
 		7CE32D161D59B1F200251F62 /* Alphabetically.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alphabetically.m; sourceTree = "<group>"; };
+		7CE32D191D59C96A00251F62 /* LineMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMenuItem.h; sourceTree = "<group>"; };
+		7CE32D1A1D59C96A00251F62 /* LineMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMenuItem.m; sourceTree = "<group>"; };
 		7CF044921D51969E006AE4C6 /* importFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importFile.h; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
 		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
@@ -393,6 +399,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7CE32D181D59B6DD00251F62 /* LineMenu(仿朋友圈点赞评论) */,
 				7CE32D141D59B1F200251F62 /* Alphabetically(拼音排序) */,
 				7C1E3E5D1D537F5C00EC8892 /* LoadingView(加载动画) */,
 				7CBC6D441D523AC600A0C443 /* EaseBlockPage(空白页提示) */,
@@ -407,6 +414,17 @@
 				7CE32D161D59B1F200251F62 /* Alphabetically.m */,
 			);
 			path = "Alphabetically(拼音排序)";
+			sourceTree = "<group>";
+		};
+		7CE32D181D59B6DD00251F62 /* LineMenu(仿朋友圈点赞评论) */ = {
+			isa = PBXGroup;
+			children = (
+				7CE32D191D59C96A00251F62 /* LineMenuItem.h */,
+				7CE32D1A1D59C96A00251F62 /* LineMenuItem.m */,
+				7C8328A11D5AC6A400F16033 /* LineMenuView.h */,
+				7C8328A21D5AC6A400F16033 /* LineMenuView.m */,
+			);
+			path = "LineMenu(仿朋友圈点赞评论)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,8 +622,10 @@
 				7CBC6D6A1D52F18200A0C443 /* NavigationController.m in Sources */,
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
 				7CBC6D671D52E36F00A0C443 /* CMViewController.m in Sources */,
+				7CE32D1B1D59C96A00251F62 /* LineMenuItem.m in Sources */,
 				7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */,
 				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
+				7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */,
 				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7C4D1E3D1D475AF1007CC4C3 /* AppDelegate.m in Sources */,
