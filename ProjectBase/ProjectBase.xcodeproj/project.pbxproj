@@ -27,6 +27,7 @@
 		7C4D1E5E1D475AF1007CC4C3 /* ProjectBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */; };
 		7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */; };
 		7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A21D5AC6A400F16033 /* LineMenuView.m */; };
+		7C8328A71D5B076400F16033 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A61D5B076400F16033 /* AlertAction.m */; };
 		7CBC6D5B1D523B4400A0C443 /* EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D571D523B4400A0C443 /* EaseBlankPageView.m */; };
 		7CBC6D5C1D523B4400A0C443 /* UIView+EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D591D523B4400A0C443 /* UIView+EaseBlankPageView.m */; };
 		7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D611D52DCFD00A0C443 /* BlankPageController.m */; };
@@ -105,6 +106,8 @@
 		7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperKit.m"; sourceTree = "<group>"; };
 		7C8328A11D5AC6A400F16033 /* LineMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMenuView.h; sourceTree = "<group>"; };
 		7C8328A21D5AC6A400F16033 /* LineMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMenuView.m; sourceTree = "<group>"; };
+		7C8328A51D5B076400F16033 /* AlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertAction.h; sourceTree = "<group>"; };
+		7C8328A61D5B076400F16033 /* AlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertAction.m; sourceTree = "<group>"; };
 		7CBC6D561D523B4400A0C443 /* EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBlankPageView.h; sourceTree = "<group>"; };
 		7CBC6D571D523B4400A0C443 /* EaseBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseBlankPageView.m; sourceTree = "<group>"; };
 		7CBC6D581D523B4400A0C443 /* UIView+EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EaseBlankPageView.h"; sourceTree = "<group>"; };
@@ -351,6 +354,15 @@
 			path = ProjectBaseUITests;
 			sourceTree = "<group>";
 		};
+		7C8328A41D5B076400F16033 /* AlertAction(模式对话框) */ = {
+			isa = PBXGroup;
+			children = (
+				7C8328A51D5B076400F16033 /* AlertAction.h */,
+				7C8328A61D5B076400F16033 /* AlertAction.m */,
+			);
+			path = "AlertAction(模式对话框)";
+			sourceTree = "<group>";
+		};
 		7CBC6D441D523AC600A0C443 /* EaseBlockPage(空白页提示) */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +411,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C8328A41D5B076400F16033 /* AlertAction(模式对话框) */,
 				7CE32D181D59B6DD00251F62 /* LineMenu(仿朋友圈点赞评论) */,
 				7CE32D141D59B1F200251F62 /* Alphabetically(拼音排序) */,
 				7C1E3E5D1D537F5C00EC8892 /* LoadingView(加载动画) */,
@@ -626,6 +639,7 @@
 				7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */,
 				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
 				7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */,
+				7C8328A71D5B076400F16033 /* AlertAction.m in Sources */,
 				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7C4D1E3D1D475AF1007CC4C3 /* AppDelegate.m in Sources */,
