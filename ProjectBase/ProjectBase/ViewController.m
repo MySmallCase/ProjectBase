@@ -10,6 +10,7 @@
 
 #import "BlankPageController.h"
 #import "LoadingViewController.h"
+#import "CustomAlertController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -55,6 +56,10 @@
         LoadingViewController *loading = [[LoadingViewController alloc] init];
         [self.navigationController pushViewController:loading animated:YES];
     }
+    if (indexPath.row == 2) {
+        CustomAlertController *custom = [[CustomAlertController alloc] init];
+        [self.navigationController pushViewController:custom animated:YES];
+    }
 }
 
 - (UITableView *)tableView {
@@ -69,7 +74,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示",@"加载动画"];
+        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗"];
     }
     return _libsArray;
 }
