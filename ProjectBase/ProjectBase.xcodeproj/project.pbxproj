@@ -52,6 +52,9 @@
 		7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */; };
 		7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE32D161D59B1F200251F62 /* Alphabetically.m */; };
 		7CE32D1B1D59C96A00251F62 /* LineMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE32D1A1D59C96A00251F62 /* LineMenuItem.m */; };
+		7CEB9FA61D6DCC2400EA5AD1 /* UIView+BadgeTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9FA51D6DCC2400EA5AD1 /* UIView+BadgeTip.m */; };
+		7CEB9FAA1D6DD0A900EA5AD1 /* BadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9FA91D6DD0A900EA5AD1 /* BadgeViewController.m */; };
+		7CEB9FB01D6DD94900EA5AD1 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9FAF1D6DD94900EA5AD1 /* BadgeView.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
@@ -156,6 +159,12 @@
 		7CE32D161D59B1F200251F62 /* Alphabetically.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alphabetically.m; sourceTree = "<group>"; };
 		7CE32D191D59C96A00251F62 /* LineMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMenuItem.h; sourceTree = "<group>"; };
 		7CE32D1A1D59C96A00251F62 /* LineMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMenuItem.m; sourceTree = "<group>"; };
+		7CEB9FA41D6DCC2400EA5AD1 /* UIView+BadgeTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BadgeTip.h"; sourceTree = "<group>"; };
+		7CEB9FA51D6DCC2400EA5AD1 /* UIView+BadgeTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BadgeTip.m"; sourceTree = "<group>"; };
+		7CEB9FA81D6DD0A900EA5AD1 /* BadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeViewController.h; sourceTree = "<group>"; };
+		7CEB9FA91D6DD0A900EA5AD1 /* BadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeViewController.m; sourceTree = "<group>"; };
+		7CEB9FAE1D6DD94900EA5AD1 /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		7CEB9FAF1D6DD94900EA5AD1 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
 		7CF044921D51969E006AE4C6 /* importFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importFile.h; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
 		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
@@ -469,6 +478,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7CEB9FA01D6D36B600EA5AD1 /* BadgeView(提示小圆点) */,
 				7C7345EC1D62C43F00C0DD20 /* DropDownMenuView(下拉菜单) */,
 				7C18B7941D5C5C9F003D5202 /* PressMenu(长按弹出菜单) */,
 				7C8328A81D5B091200F16033 /* CustomAlertView(通用弹窗) */,
@@ -499,6 +509,27 @@
 				7C8328A21D5AC6A400F16033 /* LineMenuView.m */,
 			);
 			path = "LineMenu(仿朋友圈点赞评论)";
+			sourceTree = "<group>";
+		};
+		7CEB9FA01D6D36B600EA5AD1 /* BadgeView(提示小圆点) */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB9FA71D6DD09700EA5AD1 /* Demo */,
+				7CEB9FA41D6DCC2400EA5AD1 /* UIView+BadgeTip.h */,
+				7CEB9FA51D6DCC2400EA5AD1 /* UIView+BadgeTip.m */,
+				7CEB9FAE1D6DD94900EA5AD1 /* BadgeView.h */,
+				7CEB9FAF1D6DD94900EA5AD1 /* BadgeView.m */,
+			);
+			path = "BadgeView(提示小圆点)";
+			sourceTree = "<group>";
+		};
+		7CEB9FA71D6DD09700EA5AD1 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7CEB9FA81D6DD0A900EA5AD1 /* BadgeViewController.h */,
+				7CEB9FA91D6DD0A900EA5AD1 /* BadgeViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -702,6 +733,7 @@
 				7C7345FA1D62FAEC00C0DD20 /* DropDownMenuController.m in Sources */,
 				7CBC6D671D52E36F00A0C443 /* CMViewController.m in Sources */,
 				7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */,
+				7CEB9FAA1D6DD0A900EA5AD1 /* BadgeViewController.m in Sources */,
 				7CE32D1B1D59C96A00251F62 /* LineMenuItem.m in Sources */,
 				7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */,
 				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
@@ -710,6 +742,7 @@
 				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7C4D1E3D1D475AF1007CC4C3 /* AppDelegate.m in Sources */,
+				7CEB9FA61D6DCC2400EA5AD1 /* UIView+BadgeTip.m in Sources */,
 				7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */,
 				7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */,
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
@@ -723,6 +756,7 @@
 				7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */,
 				7C7345EF1D62C6D100C0DD20 /* DropDownMenuView.m in Sources */,
 				7C02860E1D4CF12700F688ED /* NSArray+HelperKit.m in Sources */,
+				7CEB9FB01D6DD94900EA5AD1 /* BadgeView.m in Sources */,
 				7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

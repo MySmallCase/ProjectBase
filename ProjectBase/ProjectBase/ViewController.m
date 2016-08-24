@@ -12,6 +12,7 @@
 #import "LoadingViewController.h"
 #import "CustomAlertController.h"
 #import "DropDownMenuController.h"
+#import "BadgeViewController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -66,6 +67,10 @@
         DropDownMenuController *dropDown = [[DropDownMenuController alloc] init];
         [self.navigationController pushViewController:dropDown animated:YES];
     }
+    if (indexPath.row == 4) {
+        BadgeViewController *dropDown = [[BadgeViewController alloc] init];
+        [self.navigationController pushViewController:dropDown animated:YES];
+    }
 }
 
 - (UITableView *)tableView {
@@ -80,7 +85,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单"];
+        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点"];
     }
     return _libsArray;
 }
