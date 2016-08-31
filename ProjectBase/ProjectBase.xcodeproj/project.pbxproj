@@ -55,6 +55,13 @@
 		7CEB9FA61D6DCC2400EA5AD1 /* UIView+BadgeTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9FA51D6DCC2400EA5AD1 /* UIView+BadgeTip.m */; };
 		7CEB9FAA1D6DD0A900EA5AD1 /* BadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9FA91D6DD0A900EA5AD1 /* BadgeViewController.m */; };
 		7CEB9FB01D6DD94900EA5AD1 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9FAF1D6DD94900EA5AD1 /* BadgeView.m */; };
+		7CEBA0471D76C3A800EA5AD1 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA03A1D76C3A800EA5AD1 /* BaseRequest.m */; };
+		7CEBA0481D76C3A800EA5AD1 /* BatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA03C1D76C3A800EA5AD1 /* BatchRequest.m */; };
+		7CEBA0491D76C3A800EA5AD1 /* BatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA03E1D76C3A800EA5AD1 /* BatchRequestAgent.m */; };
+		7CEBA04A1D76C3A800EA5AD1 /* checkNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0401D76C3A800EA5AD1 /* checkNetwork.m */; };
+		7CEBA04B1D76C3A800EA5AD1 /* NetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0421D76C3A800EA5AD1 /* NetworkAgent.m */; };
+		7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0441D76C3A800EA5AD1 /* NetworkConfig.m */; };
+		7CEBA04D1D76C3A800EA5AD1 /* ProcessFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0461D76C3A800EA5AD1 /* ProcessFilter.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
@@ -165,6 +172,21 @@
 		7CEB9FA91D6DD0A900EA5AD1 /* BadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeViewController.m; sourceTree = "<group>"; };
 		7CEB9FAE1D6DD94900EA5AD1 /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
 		7CEB9FAF1D6DD94900EA5AD1 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+		7CEBA0381D76C3A800EA5AD1 /* BaseRequest+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseRequest+Internal.h"; sourceTree = "<group>"; };
+		7CEBA0391D76C3A800EA5AD1 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		7CEBA03A1D76C3A800EA5AD1 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		7CEBA03B1D76C3A800EA5AD1 /* BatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchRequest.h; sourceTree = "<group>"; };
+		7CEBA03C1D76C3A800EA5AD1 /* BatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchRequest.m; sourceTree = "<group>"; };
+		7CEBA03D1D76C3A800EA5AD1 /* BatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchRequestAgent.h; sourceTree = "<group>"; };
+		7CEBA03E1D76C3A800EA5AD1 /* BatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchRequestAgent.m; sourceTree = "<group>"; };
+		7CEBA03F1D76C3A800EA5AD1 /* checkNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkNetwork.h; sourceTree = "<group>"; };
+		7CEBA0401D76C3A800EA5AD1 /* checkNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkNetwork.m; sourceTree = "<group>"; };
+		7CEBA0411D76C3A800EA5AD1 /* NetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAgent.h; sourceTree = "<group>"; };
+		7CEBA0421D76C3A800EA5AD1 /* NetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAgent.m; sourceTree = "<group>"; };
+		7CEBA0431D76C3A800EA5AD1 /* NetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
+		7CEBA0441D76C3A800EA5AD1 /* NetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfig.m; sourceTree = "<group>"; };
+		7CEBA0451D76C3A800EA5AD1 /* ProcessFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessFilter.h; sourceTree = "<group>"; };
+		7CEBA0461D76C3A800EA5AD1 /* ProcessFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessFilter.m; sourceTree = "<group>"; };
 		7CF044921D51969E006AE4C6 /* importFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importFile.h; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
 		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
@@ -478,6 +500,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7CEBA0371D76C3A800EA5AD1 /* NetworkRequest(网络请求) */,
 				7CEB9FA01D6D36B600EA5AD1 /* BadgeView(提示小圆点) */,
 				7C7345EC1D62C43F00C0DD20 /* DropDownMenuView(下拉菜单) */,
 				7C18B7941D5C5C9F003D5202 /* PressMenu(长按弹出菜单) */,
@@ -530,6 +553,28 @@
 				7CEB9FA91D6DD0A900EA5AD1 /* BadgeViewController.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		7CEBA0371D76C3A800EA5AD1 /* NetworkRequest(网络请求) */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBA0381D76C3A800EA5AD1 /* BaseRequest+Internal.h */,
+				7CEBA0391D76C3A800EA5AD1 /* BaseRequest.h */,
+				7CEBA03A1D76C3A800EA5AD1 /* BaseRequest.m */,
+				7CEBA03B1D76C3A800EA5AD1 /* BatchRequest.h */,
+				7CEBA03C1D76C3A800EA5AD1 /* BatchRequest.m */,
+				7CEBA03D1D76C3A800EA5AD1 /* BatchRequestAgent.h */,
+				7CEBA03E1D76C3A800EA5AD1 /* BatchRequestAgent.m */,
+				7CEBA03F1D76C3A800EA5AD1 /* checkNetwork.h */,
+				7CEBA0401D76C3A800EA5AD1 /* checkNetwork.m */,
+				7CEBA0411D76C3A800EA5AD1 /* NetworkAgent.h */,
+				7CEBA0421D76C3A800EA5AD1 /* NetworkAgent.m */,
+				7CEBA0431D76C3A800EA5AD1 /* NetworkConfig.h */,
+				7CEBA0441D76C3A800EA5AD1 /* NetworkConfig.m */,
+				7CEBA0451D76C3A800EA5AD1 /* ProcessFilter.h */,
+				7CEBA0461D76C3A800EA5AD1 /* ProcessFilter.m */,
+			);
+			path = "NetworkRequest(网络请求)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -725,16 +770,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEBA04A1D76C3A800EA5AD1 /* checkNetwork.m in Sources */,
 				7CBC6D6D1D52F2B800A0C443 /* ViewController.m in Sources */,
 				7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */,
 				7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */,
 				7CBC6D6A1D52F18200A0C443 /* NavigationController.m in Sources */,
+				7CEBA0491D76C3A800EA5AD1 /* BatchRequestAgent.m in Sources */,
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
+				7CEBA04D1D76C3A800EA5AD1 /* ProcessFilter.m in Sources */,
 				7C7345FA1D62FAEC00C0DD20 /* DropDownMenuController.m in Sources */,
 				7CBC6D671D52E36F00A0C443 /* CMViewController.m in Sources */,
 				7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */,
 				7CEB9FAA1D6DD0A900EA5AD1 /* BadgeViewController.m in Sources */,
 				7CE32D1B1D59C96A00251F62 /* LineMenuItem.m in Sources */,
+				7CEBA04B1D76C3A800EA5AD1 /* NetworkAgent.m in Sources */,
 				7CE32D171D59B1F200251F62 /* Alphabetically.m in Sources */,
 				7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */,
 				7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */,
@@ -745,9 +794,12 @@
 				7CEB9FA61D6DCC2400EA5AD1 /* UIView+BadgeTip.m in Sources */,
 				7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */,
 				7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */,
+				7CEBA0471D76C3A800EA5AD1 /* BaseRequest.m in Sources */,
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
+				7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */,
 				7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */,
 				7C18B7971D5C5D00003D5202 /* UIView+PressMenu.m in Sources */,
+				7CEBA0481D76C3A800EA5AD1 /* BatchRequest.m in Sources */,
 				7C8328AE1D5B17F000F16033 /* CustomAlertController.m in Sources */,
 				7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */,
 				7CBC6D5C1D523B4400A0C443 /* UIView+EaseBlankPageView.m in Sources */,
