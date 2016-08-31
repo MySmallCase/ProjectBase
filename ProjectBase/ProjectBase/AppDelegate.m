@@ -29,6 +29,10 @@
     [self.window makeKeyAndVisible];
     
     
+    //SDWebImage 内存优化
+    [[SDImageCache sharedImageCache] setShouldDecompressImages:NO];
+    [[SDWebImageDownloader sharedDownloader] setShouldDecompressImages:NO];
+    
     return YES;
 }
 
@@ -52,6 +56,13 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+//当出现内存警告的时候
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
+    [[SDImageCache sharedImageCache] cleanDisk]; //清除磁盘
+    [[SDImageCache sharedImageCache] clearMemory]; //清除内存
+    [[SDImageCache sharedImageCache] setMaxCacheAge:7 * 24 * 60 * 60];  //设置缓存的最大时间
 }
 
 @end
