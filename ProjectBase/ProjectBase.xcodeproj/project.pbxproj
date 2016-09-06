@@ -37,6 +37,9 @@
 		7C8328A71D5B076400F16033 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A61D5B076400F16033 /* AlertAction.m */; };
 		7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */; };
 		7C8328AE1D5B17F000F16033 /* CustomAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AD1D5B17F000F16033 /* CustomAlertController.m */; };
+		7C9A1FE41D7ABCCF00F6F85B /* ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FE31D7ABCCF00F6F85B /* ActionSheet.m */; };
+		7C9A1FE81D7AD64F00F6F85B /* ActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FE71D7AD64F00F6F85B /* ActionSheetController.m */; };
+		7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FEA1D7E703000F6F85B /* ActionSheetCell.m */; };
 		7CBC6D5B1D523B4400A0C443 /* EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D571D523B4400A0C443 /* EaseBlankPageView.m */; };
 		7CBC6D5C1D523B4400A0C443 /* UIView+EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D591D523B4400A0C443 /* UIView+EaseBlankPageView.m */; };
 		7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC6D611D52DCFD00A0C443 /* BlankPageController.m */; };
@@ -141,6 +144,12 @@
 		7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
 		7C8328AC1D5B17F000F16033 /* CustomAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertController.h; sourceTree = "<group>"; };
 		7C8328AD1D5B17F000F16033 /* CustomAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertController.m; sourceTree = "<group>"; };
+		7C9A1FE21D7ABCCF00F6F85B /* ActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheet.h; sourceTree = "<group>"; };
+		7C9A1FE31D7ABCCF00F6F85B /* ActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheet.m; sourceTree = "<group>"; };
+		7C9A1FE61D7AD64F00F6F85B /* ActionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetController.h; sourceTree = "<group>"; };
+		7C9A1FE71D7AD64F00F6F85B /* ActionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetController.m; sourceTree = "<group>"; };
+		7C9A1FE91D7E703000F6F85B /* ActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCell.h; sourceTree = "<group>"; };
+		7C9A1FEA1D7E703000F6F85B /* ActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCell.m; sourceTree = "<group>"; };
 		7CBC6D561D523B4400A0C443 /* EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBlankPageView.h; sourceTree = "<group>"; };
 		7CBC6D571D523B4400A0C443 /* EaseBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseBlankPageView.m; sourceTree = "<group>"; };
 		7CBC6D581D523B4400A0C443 /* UIView+EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EaseBlankPageView.h"; sourceTree = "<group>"; };
@@ -452,6 +461,27 @@
 			path = "CustomAlertView(通用弹窗)";
 			sourceTree = "<group>";
 		};
+		7C9A1FE11D7ABCB000F6F85B /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				7C9A1FE51D7AD64000F6F85B /* Demo */,
+				7C9A1FE21D7ABCCF00F6F85B /* ActionSheet.h */,
+				7C9A1FE31D7ABCCF00F6F85B /* ActionSheet.m */,
+				7C9A1FE91D7E703000F6F85B /* ActionSheetCell.h */,
+				7C9A1FEA1D7E703000F6F85B /* ActionSheetCell.m */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		7C9A1FE51D7AD64000F6F85B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7C9A1FE61D7AD64F00F6F85B /* ActionSheetController.h */,
+				7C9A1FE71D7AD64F00F6F85B /* ActionSheetController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		7CBC6D441D523AC600A0C443 /* EaseBlockPage(空白页提示) */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,6 +530,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C9A1FE11D7ABCB000F6F85B /* ActionSheet */,
 				7CEBA0371D76C3A800EA5AD1 /* NetworkRequest(网络请求) */,
 				7CEB9FA01D6D36B600EA5AD1 /* BadgeView(提示小圆点) */,
 				7C7345EC1D62C43F00C0DD20 /* DropDownMenuView(下拉菜单) */,
@@ -770,6 +801,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9A1FE41D7ABCCF00F6F85B /* ActionSheet.m in Sources */,
 				7CEBA04A1D76C3A800EA5AD1 /* checkNetwork.m in Sources */,
 				7CBC6D6D1D52F2B800A0C443 /* ViewController.m in Sources */,
 				7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */,
@@ -794,9 +826,11 @@
 				7CEB9FA61D6DCC2400EA5AD1 /* UIView+BadgeTip.m in Sources */,
 				7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */,
 				7C0286111D4CF55900F688ED /* NSString+HelperKit.m in Sources */,
+				7C9A1FE81D7AD64F00F6F85B /* ActionSheetController.m in Sources */,
 				7CEBA0471D76C3A800EA5AD1 /* BaseRequest.m in Sources */,
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
 				7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */,
+				7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */,
 				7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */,
 				7C18B7971D5C5D00003D5202 /* UIView+PressMenu.m in Sources */,
 				7CEBA0481D76C3A800EA5AD1 /* BatchRequest.m in Sources */,

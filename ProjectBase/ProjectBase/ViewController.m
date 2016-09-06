@@ -13,6 +13,7 @@
 #import "CustomAlertController.h"
 #import "DropDownMenuController.h"
 #import "BadgeViewController.h"
+#import "ActionSheetController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -71,6 +72,11 @@
         BadgeViewController *dropDown = [[BadgeViewController alloc] init];
         [self.navigationController pushViewController:dropDown animated:YES];
     }
+    if (indexPath.row == 5) {
+        ActionSheetController *dropDown = [[ActionSheetController alloc] init];
+        [self.navigationController pushViewController:dropDown animated:YES];
+    }
+    
 }
 
 - (UITableView *)tableView {
@@ -85,7 +91,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点"];
+        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet"];
     }
     return _libsArray;
 }
