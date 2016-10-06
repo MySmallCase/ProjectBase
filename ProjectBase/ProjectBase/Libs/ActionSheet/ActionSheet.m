@@ -58,10 +58,6 @@ static CGFloat const sectionHeight = 8.0f;
         
         //计算
         self.tableViewHeight = [self getTableViewHeight];
-        
-        
-        
-//        [self showActionSheet];
     }
     return self;
 }
@@ -73,6 +69,7 @@ static CGFloat const sectionHeight = 8.0f;
     [kKeyWindow addSubview:self];
     
     [UIView animateWithDuration:0.25 animations:^{
+        self.bgView.alpha = 0.2;
         self.tableView.y = kScreen_Height - self.tableViewHeight;
     }];
     
@@ -80,6 +77,7 @@ static CGFloat const sectionHeight = 8.0f;
 
 - (void)dismissActionSheet {
     [UIView animateWithDuration:0.25 animations:^{
+        self.bgView.alpha = 0.0;
         self.tableView.y = kScreen_Height;
     } completion:^(BOOL finished) {
         [self removeFromSuperview];
@@ -188,7 +186,7 @@ static CGFloat const sectionHeight = 8.0f;
     if (!_bgView) {
         _bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height)];
         _bgView.backgroundColor = [UIColor blackColor];
-        _bgView.alpha = 0.5;
+        _bgView.alpha = 0;
         UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissActionSheet)];
         [_bgView addGestureRecognizer:gesture];
     }
