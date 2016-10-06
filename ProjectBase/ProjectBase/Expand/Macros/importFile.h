@@ -12,6 +12,7 @@
 #import "UIView+EaseBlankPageView.h"
 #import "UIView+LoadingView.h"
 #import "Alphabetically.h"
+#import "PayAPI.h"
 
 
 

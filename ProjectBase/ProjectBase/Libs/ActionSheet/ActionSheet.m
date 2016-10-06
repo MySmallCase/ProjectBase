@@ -9,7 +9,7 @@
 #import "ActionSheet.h"
 #import "ActionSheetCell.h"
 
-static CGFloat const kLabelTag = 10000;
+//static CGFloat const kLabelTag = 10000;
 
 static CGFloat const cellHeight = 44.0f;
 
