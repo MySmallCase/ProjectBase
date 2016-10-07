@@ -18,6 +18,7 @@
 		7C1E3E681D53807400EC8892 /* loading_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3E661D53807400EC8892 /* loading_loop@3x.png */; };
 		7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */; };
 		7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */; };
+		7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C30D0871DA7768200C8A8EA /* RefreshManager.m */; };
 		7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */; };
 		7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */; };
 		7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E391D475AF1007CC4C3 /* main.m */; };
@@ -136,6 +137,8 @@
 		7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadingView.m"; sourceTree = "<group>"; };
 		7C1E3E6D1D5383BB00EC8892 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
 		7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		7C30D0861DA7768200C8A8EA /* RefreshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshManager.h; sourceTree = "<group>"; };
+		7C30D0871DA7768200C8A8EA /* RefreshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshManager.m; sourceTree = "<group>"; };
 		7C4A8FBB1D475DC300717F5F /* UIView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HelperKit.h"; sourceTree = "<group>"; };
 		7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HelperKit.m"; sourceTree = "<group>"; };
 		7C4A8FBE1D4765D300717F5F /* UIDevice+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HelperKit.h"; sourceTree = "<group>"; };
@@ -491,6 +494,15 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
+		7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */ = {
+			isa = PBXGroup;
+			children = (
+				7C30D0861DA7768200C8A8EA /* RefreshManager.h */,
+				7C30D0871DA7768200C8A8EA /* RefreshManager.m */,
+			);
+			path = "RefreshManager(刷新)";
+			sourceTree = "<group>";
+		};
 		7C4A8FB91D475CB900717F5F /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -692,6 +704,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */,
 				7CE489A41DA63A9D002539B6 /* Pay(支付) */,
 				7C9A1FE11D7ABCB000F6F85B /* ActionSheet */,
 				7CEBA0371D76C3A800EA5AD1 /* NetworkRequest(网络请求) */,
@@ -1006,6 +1019,7 @@
 				TargetAttributes = {
 					7C4D1E341D475AF1007CC4C3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YF8P7K8LB7;
 					};
 					7C4D1E4D1D475AF1007CC4C3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1166,6 +1180,7 @@
 				7CEBA0471D76C3A800EA5AD1 /* BaseRequest.m in Sources */,
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
 				7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */,
+				7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */,
 				7CE48A391DA64AA1002539B6 /* MD5DataSigner.m in Sources */,
 				7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */,
 				7CE489A71DA63B8A002539B6 /* weChatPayModel.m in Sources */,
@@ -1326,6 +1341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YF8P7K8LB7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
@@ -1364,6 +1380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YF8P7K8LB7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
