@@ -12,5 +12,6 @@
 
 #import "Macros.h"
 #import "importFile.h"
+#import "ThirdMacros.h"
 
 #endif /* ProjectBase_pch */

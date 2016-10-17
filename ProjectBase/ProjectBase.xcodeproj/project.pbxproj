@@ -37,6 +37,8 @@
 		7C8328A71D5B076400F16033 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A61D5B076400F16033 /* AlertAction.m */; };
 		7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */; };
 		7C8328AE1D5B17F000F16033 /* CustomAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AD1D5B17F000F16033 /* CustomAlertController.m */; };
+		7C8E7B9A1DB46C20000BDCE9 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E7B991DB46C20000BDCE9 /* BaseViewModel.m */; };
+		7C8E7B9D1DB47053000BDCE9 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E7B9C1DB47053000BDCE9 /* LoginViewModel.m */; };
 		7C9A1FE41D7ABCCF00F6F85B /* ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FE31D7ABCCF00F6F85B /* ActionSheet.m */; };
 		7C9A1FE81D7AD64F00F6F85B /* ActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FE71D7AD64F00F6F85B /* ActionSheetController.m */; };
 		7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FEA1D7E703000F6F85B /* ActionSheetCell.m */; };
@@ -93,6 +95,7 @@
 		7CEBA04B1D76C3A800EA5AD1 /* NetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0421D76C3A800EA5AD1 /* NetworkAgent.m */; };
 		7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0441D76C3A800EA5AD1 /* NetworkConfig.m */; };
 		7CEBA04D1D76C3A800EA5AD1 /* ProcessFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBA0461D76C3A800EA5AD1 /* ProcessFilter.m */; };
+		7CF7ED6E1DB465370025F7D1 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7ED6D1DB465370025F7D1 /* LoginController.m */; };
 		7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */; };
 		7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9DC881D48A7C4003DD4AC /* UIImage+HelperKit.m */; };
 		EBAA470A8D18FF73976CDEB2 /* libPods-ProjectBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265058B2F75F9DF26F47379 /* libPods-ProjectBase.a */; };
@@ -172,6 +175,10 @@
 		7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
 		7C8328AC1D5B17F000F16033 /* CustomAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertController.h; sourceTree = "<group>"; };
 		7C8328AD1D5B17F000F16033 /* CustomAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertController.m; sourceTree = "<group>"; };
+		7C8E7B981DB46C20000BDCE9 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		7C8E7B991DB46C20000BDCE9 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		7C8E7B9B1DB47053000BDCE9 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		7C8E7B9C1DB47053000BDCE9 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		7C9A1FE21D7ABCCF00F6F85B /* ActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheet.h; sourceTree = "<group>"; };
 		7C9A1FE31D7ABCCF00F6F85B /* ActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheet.m; sourceTree = "<group>"; };
 		7C9A1FE61D7AD64F00F6F85B /* ActionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetController.h; sourceTree = "<group>"; };
@@ -197,6 +204,7 @@
 		7CBC6DB11D532F4200A0C443 /* blankpage_image_Sleep@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_Sleep@3x.png"; sourceTree = "<group>"; };
 		7CBE8C1D1D50C31D0032A162 /* NSDate+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HelperKit.h"; sourceTree = "<group>"; };
 		7CBE8C1E1D50C31D0032A162 /* NSDate+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HelperKit.m"; sourceTree = "<group>"; };
+		7CCC9CDB1DB47A4400C560AB /* ThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
 		7CCE2BD41D49D8A600F87AF4 /* UIImageView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HelperKit.h"; sourceTree = "<group>"; };
 		7CCE2BD51D49D8A600F87AF4 /* UIImageView+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HelperKit.m"; sourceTree = "<group>"; };
 		7CE32D151D59B1F200251F62 /* Alphabetically.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alphabetically.h; sourceTree = "<group>"; };
@@ -344,6 +352,8 @@
 		7CEBA0451D76C3A800EA5AD1 /* ProcessFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessFilter.h; sourceTree = "<group>"; };
 		7CEBA0461D76C3A800EA5AD1 /* ProcessFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessFilter.m; sourceTree = "<group>"; };
 		7CF044921D51969E006AE4C6 /* importFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importFile.h; sourceTree = "<group>"; };
+		7CF7ED6C1DB465370025F7D1 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		7CF7ED6D1DB465370025F7D1 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		7CF9DC841D48A668003DD4AC /* UIFont+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HelperKit.h"; sourceTree = "<group>"; };
 		7CF9DC851D48A668003DD4AC /* UIFont+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HelperKit.m"; sourceTree = "<group>"; };
 		7CF9DC871D48A7C4003DD4AC /* UIImage+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HelperKit.h"; sourceTree = "<group>"; };
@@ -426,6 +436,7 @@
 			children = (
 				7C0286071D4CEF1500F688ED /* Macros.h */,
 				7CF044921D51969E006AE4C6 /* importFile.h */,
+				7CCC9CDB1DB47A4400C560AB /* ThirdMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -561,6 +572,7 @@
 				7CBE8C1A1D508E9F0032A162 /* Libs */,
 				7C4A8FB91D475CB900717F5F /* Category */,
 				7CBC6D631D52E1AA00A0C443 /* Classes */,
+				7C8E7B971DB46C08000BDCE9 /* Others */,
 				7C0286051D4CEF1500F688ED /* Expand */,
 				7CE489AE1DA6407B002539B6 /* Vendor */,
 				7C0286081D4CEF2300F688ED /* Resource */,
@@ -635,6 +647,15 @@
 			path = "CustomAlertView(通用弹窗)";
 			sourceTree = "<group>";
 		};
+		7C8E7B971DB46C08000BDCE9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7C8E7B981DB46C20000BDCE9 /* BaseViewModel.h */,
+				7C8E7B991DB46C20000BDCE9 /* BaseViewModel.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		7C9A1FE11D7ABCB000F6F85B /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -704,6 +725,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7CF7ED6A1DB4647C0025F7D1 /* Login(第三方登录) */,
 				7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */,
 				7CE489A41DA63A9D002539B6 /* Pay(支付) */,
 				7C9A1FE11D7ABCB000F6F85B /* ActionSheet */,
@@ -949,6 +971,25 @@
 			path = "NetworkRequest(网络请求)";
 			sourceTree = "<group>";
 		};
+		7CF7ED6A1DB4647C0025F7D1 /* Login(第三方登录) */ = {
+			isa = PBXGroup;
+			children = (
+				7CF7ED6B1DB4651F0025F7D1 /* demo */,
+				7C8E7B9B1DB47053000BDCE9 /* LoginViewModel.h */,
+				7C8E7B9C1DB47053000BDCE9 /* LoginViewModel.m */,
+			);
+			path = "Login(第三方登录)";
+			sourceTree = "<group>";
+		};
+		7CF7ED6B1DB4651F0025F7D1 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				7CF7ED6C1DB465370025F7D1 /* LoginController.h */,
+				7CF7ED6D1DB465370025F7D1 /* LoginController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1020,6 +1061,7 @@
 					7C4D1E341D475AF1007CC4C3 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = YF8P7K8LB7;
+						ProvisioningStyle = Automatic;
 					};
 					7C4D1E4D1D475AF1007CC4C3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1170,6 +1212,7 @@
 				7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */,
 				7C8328A71D5B076400F16033 /* AlertAction.m in Sources */,
 				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
+				7C8E7B9A1DB46C20000BDCE9 /* BaseViewModel.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7CE48A3C1DA64AA1002539B6 /* RSADataSigner.m in Sources */,
 				7CE48A3B1DA64AA1002539B6 /* openssl_wrapper.m in Sources */,
@@ -1181,6 +1224,7 @@
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
 				7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */,
 				7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */,
+				7C8E7B9D1DB47053000BDCE9 /* LoginViewModel.m in Sources */,
 				7CE48A391DA64AA1002539B6 /* MD5DataSigner.m in Sources */,
 				7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */,
 				7CE489A71DA63B8A002539B6 /* weChatPayModel.m in Sources */,
@@ -1197,6 +1241,7 @@
 				7CE48A361DA64AA1002539B6 /* base64.m in Sources */,
 				7CBC6D5C1D523B4400A0C443 /* UIView+EaseBlankPageView.m in Sources */,
 				7C0285F81D4B430A00F688ED /* UITableView+CellLine.m in Sources */,
+				7CF7ED6E1DB465370025F7D1 /* LoginController.m in Sources */,
 				7CBC6D5B1D523B4400A0C443 /* EaseBlankPageView.m in Sources */,
 				7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */,
 				7C7345EF1D62C6D100C0DD20 /* DropDownMenuView.m in Sources */,
@@ -1341,7 +1386,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YF8P7K8LB7;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
@@ -1361,14 +1408,14 @@
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
 				);
 				INFOPLIST_FILE = ProjectBase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/weChatPay",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiangyunfei.www.ProjectBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfei.www.ProjectBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1380,7 +1427,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YF8P7K8LB7;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
@@ -1400,14 +1449,14 @@
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
 				);
 				INFOPLIST_FILE = ProjectBase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/weChatPay",
 					"$(PROJECT_DIR)/ProjectBase/Vendor/aliPay",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiangyunfei.www.ProjectBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfei.www.ProjectBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

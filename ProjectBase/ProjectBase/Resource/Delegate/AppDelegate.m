@@ -10,6 +10,7 @@
 #import "NavigationController.h"
 #import "ViewController.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -32,6 +33,12 @@
     //SDWebImage 内存优化
     [[SDImageCache sharedImageCache] setShouldDecompressImages:NO];
     [[SDWebImageDownloader sharedDownloader] setShouldDecompressImages:NO];
+    
+    //友盟
+    [UMSocialData setAppKey:kUmengKey];
+    [UMSocialQQHandler setQQWithAppId:kSocial_QQ_ID appKey:kSocial_QQ_Secret url:kSocial_QQ_Url];
+    [UMSocialWechatHandler setWXAppId:kSocial_WX_ID appSecret:kSocial_WX_Secret url:kSocial_WX_Url];
+    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:kSocial_Sina_AppKey secret:kSocial_Sina_Secret RedirectURL:kSocial_Sina_RedirectURL];
     
     return YES;
 }

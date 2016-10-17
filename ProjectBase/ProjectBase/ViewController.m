@@ -14,6 +14,7 @@
 #import "DropDownMenuController.h"
 #import "BadgeViewController.h"
 #import "ActionSheetController.h"
+#import "LoginController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -69,12 +70,16 @@
         [self.navigationController pushViewController:dropDown animated:YES];
     }
     if (indexPath.row == 4) {
-        BadgeViewController *dropDown = [[BadgeViewController alloc] init];
-        [self.navigationController pushViewController:dropDown animated:YES];
+        BadgeViewController *badge = [[BadgeViewController alloc] init];
+        [self.navigationController pushViewController:badge animated:YES];
     }
     if (indexPath.row == 5) {
-        ActionSheetController *dropDown = [[ActionSheetController alloc] init];
-        [self.navigationController pushViewController:dropDown animated:YES];
+        ActionSheetController *actionSheet = [[ActionSheetController alloc] init];
+        [self.navigationController pushViewController:actionSheet animated:YES];
+    }
+    if (indexPath.row == 6) {
+        LoginController *login = [[LoginController alloc] init];
+        [self.navigationController pushViewController:login animated:YES];
     }
     
 }
@@ -91,7 +96,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet"];
+        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet",@"登录"];
     }
     return _libsArray;
 }
