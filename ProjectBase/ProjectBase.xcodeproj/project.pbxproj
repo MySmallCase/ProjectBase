@@ -37,6 +37,10 @@
 		7C7345FA1D62FAEC00C0DD20 /* DropDownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7345F91D62FAEC00C0DD20 /* DropDownMenuController.m */; };
 		7C79E0611DBB62790097B201 /* StarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E0601DBB62790097B201 /* StarRateView.m */; };
 		7C79E0651DBB62B60097B201 /* StarRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E0641DBB62B60097B201 /* StarRateViewController.m */; };
+		7C79E0691DBB9F4C0097B201 /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E0681DBB9F4C0097B201 /* CountDown.m */; };
+		7C79E06D1DBBA5F90097B201 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E06C1DBBA5F90097B201 /* CountDownViewController.m */; };
+		7C79E0701DBBB3180097B201 /* CountDownSimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E06F1DBBB3180097B201 /* CountDownSimpleController.m */; };
+		7C79E0731DBBB74C0097B201 /* CountDownInCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E0721DBBB74C0097B201 /* CountDownInCellViewController.m */; };
 		7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A21D5AC6A400F16033 /* LineMenuView.m */; };
 		7C8328A71D5B076400F16033 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A61D5B076400F16033 /* AlertAction.m */; };
 		7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */; };
@@ -178,6 +182,14 @@
 		7C79E0601DBB62790097B201 /* StarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRateView.m; sourceTree = "<group>"; };
 		7C79E0631DBB62B60097B201 /* StarRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRateViewController.h; sourceTree = "<group>"; };
 		7C79E0641DBB62B60097B201 /* StarRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRateViewController.m; sourceTree = "<group>"; };
+		7C79E0671DBB9F4C0097B201 /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
+		7C79E0681DBB9F4C0097B201 /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
+		7C79E06B1DBBA5F90097B201 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		7C79E06C1DBBA5F90097B201 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		7C79E06E1DBBB3180097B201 /* CountDownSimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownSimpleController.h; sourceTree = "<group>"; };
+		7C79E06F1DBBB3180097B201 /* CountDownSimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownSimpleController.m; sourceTree = "<group>"; };
+		7C79E0711DBBB74C0097B201 /* CountDownInCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownInCellViewController.h; sourceTree = "<group>"; };
+		7C79E0721DBBB74C0097B201 /* CountDownInCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownInCellViewController.m; sourceTree = "<group>"; };
 		7C8328A11D5AC6A400F16033 /* LineMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMenuView.h; sourceTree = "<group>"; };
 		7C8328A21D5AC6A400F16033 /* LineMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMenuView.m; sourceTree = "<group>"; };
 		7C8328A51D5B076400F16033 /* AlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertAction.h; sourceTree = "<group>"; };
@@ -673,6 +685,29 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		7C79E0661DBB9F360097B201 /* CountDown(倒计时) */ = {
+			isa = PBXGroup;
+			children = (
+				7C79E06A1DBBA5E20097B201 /* Demo */,
+				7C79E0671DBB9F4C0097B201 /* CountDown.h */,
+				7C79E0681DBB9F4C0097B201 /* CountDown.m */,
+			);
+			path = "CountDown(倒计时)";
+			sourceTree = "<group>";
+		};
+		7C79E06A1DBBA5E20097B201 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7C79E06B1DBBA5F90097B201 /* CountDownViewController.h */,
+				7C79E06C1DBBA5F90097B201 /* CountDownViewController.m */,
+				7C79E06E1DBBB3180097B201 /* CountDownSimpleController.h */,
+				7C79E06F1DBBB3180097B201 /* CountDownSimpleController.m */,
+				7C79E0711DBBB74C0097B201 /* CountDownInCellViewController.h */,
+				7C79E0721DBBB74C0097B201 /* CountDownInCellViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		7C8328A41D5B076400F16033 /* AlertAction(模式对话框) */ = {
 			isa = PBXGroup;
 			children = (
@@ -771,6 +806,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C79E0661DBB9F360097B201 /* CountDown(倒计时) */,
 				7C79E05E1DBB62790097B201 /* StarRateView(星星评分) */,
 				7CF7ED6A1DB4647C0025F7D1 /* Login(第三方登录) */,
 				7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */,
@@ -1271,10 +1307,13 @@
 				7C9A1FE81D7AD64F00F6F85B /* ActionSheetController.m in Sources */,
 				7CEBA0471D76C3A800EA5AD1 /* BaseRequest.m in Sources */,
 				7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */,
+				7C79E0731DBBB74C0097B201 /* CountDownInCellViewController.m in Sources */,
 				7CEBA04C1D76C3A800EA5AD1 /* NetworkConfig.m in Sources */,
 				7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */,
 				7C8E7B9D1DB47053000BDCE9 /* LoginViewModel.m in Sources */,
+				7C79E0701DBBB3180097B201 /* CountDownSimpleController.m in Sources */,
 				7CE48A391DA64AA1002539B6 /* MD5DataSigner.m in Sources */,
+				7C79E06D1DBBA5F90097B201 /* CountDownViewController.m in Sources */,
 				7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */,
 				7CE489A71DA63B8A002539B6 /* weChatPayModel.m in Sources */,
 				7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */,
@@ -1286,6 +1325,7 @@
 				7CE489AD1DA63D60002539B6 /* PayAPI.m in Sources */,
 				7C79E0611DBB62790097B201 /* StarRateView.m in Sources */,
 				7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */,
+				7C79E0691DBB9F4C0097B201 /* CountDown.m in Sources */,
 				7CE48A411DA64C15002539B6 /* AppDelegate.m in Sources */,
 				7CE489AA1DA63C3E002539B6 /* alipayModel.m in Sources */,
 				7CE48A361DA64AA1002539B6 /* base64.m in Sources */,

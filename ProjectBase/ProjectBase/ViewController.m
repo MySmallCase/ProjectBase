@@ -16,6 +16,7 @@
 #import "ActionSheetController.h"
 #import "LoginController.h"
 #import "StarRateViewController.h"
+#import "CountDownViewController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -86,6 +87,10 @@
         StarRateViewController *StarRate = [[StarRateViewController alloc] init];
         [self.navigationController pushViewController:StarRate animated:YES];
     }
+    if (indexPath.row == 8) {
+        CountDownViewController *CountDown = [[CountDownViewController alloc] init];
+        [self.navigationController pushViewController:CountDown animated:YES];
+    }
     
 }
 
@@ -101,7 +106,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet",@"登录",@"星星评分"];
+        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet",@"登录",@"星星评分",@"倒计时"];
     }
     return _libsArray;
 }
