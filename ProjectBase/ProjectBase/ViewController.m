@@ -15,6 +15,7 @@
 #import "BadgeViewController.h"
 #import "ActionSheetController.h"
 #import "LoginController.h"
+#import "StarRateViewController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -81,6 +82,10 @@
         LoginController *login = [[LoginController alloc] init];
         [self.navigationController pushViewController:login animated:YES];
     }
+    if (indexPath.row == 7) {
+        StarRateViewController *StarRate = [[StarRateViewController alloc] init];
+        [self.navigationController pushViewController:StarRate animated:YES];
+    }
     
 }
 
@@ -96,7 +101,7 @@
 - (NSArray *)libsArray {
     if (!_libsArray) {
         _libsArray = [[NSArray alloc] init];
-        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet",@"登录"];
+        _libsArray = @[@"空白页提示",@"加载动画",@"通用弹窗",@"下拉菜单",@"提示小圆点",@"ActionSheet",@"登录",@"星星评分"];
     }
     return _libsArray;
 }

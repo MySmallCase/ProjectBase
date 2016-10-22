@@ -35,6 +35,8 @@
 		7C7345F61D62D85C00C0DD20 /* tableView_arrow_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7345F41D62D85C00C0DD20 /* tableView_arrow_icon@2x.png */; };
 		7C7345F71D62D85C00C0DD20 /* tableView_arrow_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7345F51D62D85C00C0DD20 /* tableView_arrow_icon@3x.png */; };
 		7C7345FA1D62FAEC00C0DD20 /* DropDownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7345F91D62FAEC00C0DD20 /* DropDownMenuController.m */; };
+		7C79E0611DBB62790097B201 /* StarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E0601DBB62790097B201 /* StarRateView.m */; };
+		7C79E0651DBB62B60097B201 /* StarRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C79E0641DBB62B60097B201 /* StarRateViewController.m */; };
 		7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A21D5AC6A400F16033 /* LineMenuView.m */; };
 		7C8328A71D5B076400F16033 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A61D5B076400F16033 /* AlertAction.m */; };
 		7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */; };
@@ -172,6 +174,10 @@
 		7C7345F51D62D85C00C0DD20 /* tableView_arrow_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableView_arrow_icon@3x.png"; sourceTree = "<group>"; };
 		7C7345F81D62FAEC00C0DD20 /* DropDownMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownMenuController.h; sourceTree = "<group>"; };
 		7C7345F91D62FAEC00C0DD20 /* DropDownMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownMenuController.m; sourceTree = "<group>"; };
+		7C79E05F1DBB62790097B201 /* StarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRateView.h; sourceTree = "<group>"; };
+		7C79E0601DBB62790097B201 /* StarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRateView.m; sourceTree = "<group>"; };
+		7C79E0631DBB62B60097B201 /* StarRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRateViewController.h; sourceTree = "<group>"; };
+		7C79E0641DBB62B60097B201 /* StarRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRateViewController.m; sourceTree = "<group>"; };
 		7C8328A11D5AC6A400F16033 /* LineMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMenuView.h; sourceTree = "<group>"; };
 		7C8328A21D5AC6A400F16033 /* LineMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineMenuView.m; sourceTree = "<group>"; };
 		7C8328A51D5B076400F16033 /* AlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertAction.h; sourceTree = "<group>"; };
@@ -648,6 +654,25 @@
 			path = "DropDownMenuView(下拉菜单)";
 			sourceTree = "<group>";
 		};
+		7C79E05E1DBB62790097B201 /* StarRateView(星星评分) */ = {
+			isa = PBXGroup;
+			children = (
+				7C79E0621DBB628B0097B201 /* Demo */,
+				7C79E05F1DBB62790097B201 /* StarRateView.h */,
+				7C79E0601DBB62790097B201 /* StarRateView.m */,
+			);
+			path = "StarRateView(星星评分)";
+			sourceTree = "<group>";
+		};
+		7C79E0621DBB628B0097B201 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7C79E0631DBB62B60097B201 /* StarRateViewController.h */,
+				7C79E0641DBB62B60097B201 /* StarRateViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		7C8328A41D5B076400F16033 /* AlertAction(模式对话框) */ = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +771,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C79E05E1DBB62790097B201 /* StarRateView(星星评分) */,
 				7CF7ED6A1DB4647C0025F7D1 /* Login(第三方登录) */,
 				7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */,
 				7CE489A41DA63A9D002539B6 /* Pay(支付) */,
@@ -1222,6 +1248,7 @@
 				7CEBA0491D76C3A800EA5AD1 /* BatchRequestAgent.m in Sources */,
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
 				7CEBA04D1D76C3A800EA5AD1 /* ProcessFilter.m in Sources */,
+				7C79E0651DBB62B60097B201 /* StarRateViewController.m in Sources */,
 				7CE48A371DA64AA1002539B6 /* DataSigner.m in Sources */,
 				7C7345FA1D62FAEC00C0DD20 /* DropDownMenuController.m in Sources */,
 				7C2C47221DB5FB2700EB5FDE /* BaseViewModel.m in Sources */,
@@ -1257,6 +1284,7 @@
 				7CE48A3D1DA64AA1002539B6 /* RSADataVerifier.m in Sources */,
 				7C8328AE1D5B17F000F16033 /* CustomAlertController.m in Sources */,
 				7CE489AD1DA63D60002539B6 /* PayAPI.m in Sources */,
+				7C79E0611DBB62790097B201 /* StarRateView.m in Sources */,
 				7CBC6D621D52DCFD00A0C443 /* BlankPageController.m in Sources */,
 				7CE48A411DA64C15002539B6 /* AppDelegate.m in Sources */,
 				7CE489AA1DA63C3E002539B6 /* alipayModel.m in Sources */,
