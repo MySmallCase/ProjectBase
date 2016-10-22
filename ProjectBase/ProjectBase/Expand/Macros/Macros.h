@@ -8,12 +8,14 @@
 
 //系统常用宏
 
-
+#pragma mark - 常用变量
 #ifdef DEBUG // 处于开发阶段
 #define DBLog(...) NSLog(__VA_ARGS__)
 #else // 处于发布阶段
 #define DBLog(...)
 #endif
+
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
 
 //AppDelegate对象
 #define AppDelegateInstance [[UIApplication sharedApplication] delegate]
@@ -22,7 +24,7 @@
 #define kNotificationCenter [NSNotificationCenter defaultCenter]
 
 //序列化存储
-#define kUserDefault [NSUserDefaults standardUserDefaults]
+#define kUserDefault [GVUserDefaults standardUserDefaults]
 
 //版本号
 #define kVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
@@ -60,7 +62,7 @@
 
 #pragma mark - 不同屏幕尺寸字体适配 (以iPhone6为尺寸设计)
 #define kScreenWidthRatio (kScreen_Width / 375)
-#define kScreenHeightRatio (kScreen_Height / 567)
+#define kScreenHeightRatio (kScreen_Height / 667)
 #define kAdaptedWidth(x) ceilf((x) * kScreenWidthRatio)
 #define kAdaptedHeight(x) ceilf((x) * kScreenHeightRatio)
 

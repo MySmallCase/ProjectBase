@@ -18,6 +18,8 @@
 		7C1E3E681D53807400EC8892 /* loading_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1E3E661D53807400EC8892 /* loading_loop@3x.png */; };
 		7C1E3E6B1D5381DC00EC8892 /* UIView+LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */; };
 		7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */; };
+		7C2C47221DB5FB2700EB5FDE /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C47211DB5FB2700EB5FDE /* BaseViewModel.m */; };
+		7C2C472C1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C472B1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m */; };
 		7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C30D0871DA7768200C8A8EA /* RefreshManager.m */; };
 		7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */; };
 		7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */; };
@@ -37,7 +39,6 @@
 		7C8328A71D5B076400F16033 /* AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328A61D5B076400F16033 /* AlertAction.m */; };
 		7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */; };
 		7C8328AE1D5B17F000F16033 /* CustomAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8328AD1D5B17F000F16033 /* CustomAlertController.m */; };
-		7C8E7B9A1DB46C20000BDCE9 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E7B991DB46C20000BDCE9 /* BaseViewModel.m */; };
 		7C8E7B9D1DB47053000BDCE9 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E7B9C1DB47053000BDCE9 /* LoginViewModel.m */; };
 		7C9A1FE41D7ABCCF00F6F85B /* ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FE31D7ABCCF00F6F85B /* ActionSheet.m */; };
 		7C9A1FE81D7AD64F00F6F85B /* ActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A1FE71D7AD64F00F6F85B /* ActionSheetController.m */; };
@@ -140,6 +141,10 @@
 		7C1E3E6A1D5381DC00EC8892 /* UIView+LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LoadingView.m"; sourceTree = "<group>"; };
 		7C1E3E6D1D5383BB00EC8892 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
 		7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		7C2C47201DB5FB2700EB5FDE /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		7C2C47211DB5FB2700EB5FDE /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		7C2C472A1DB5FBF100EB5FDE /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		7C2C472B1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		7C30D0861DA7768200C8A8EA /* RefreshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshManager.h; sourceTree = "<group>"; };
 		7C30D0871DA7768200C8A8EA /* RefreshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshManager.m; sourceTree = "<group>"; };
 		7C4A8FBB1D475DC300717F5F /* UIView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HelperKit.h"; sourceTree = "<group>"; };
@@ -175,8 +180,6 @@
 		7C8328AA1D5B0A8300F16033 /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
 		7C8328AC1D5B17F000F16033 /* CustomAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertController.h; sourceTree = "<group>"; };
 		7C8328AD1D5B17F000F16033 /* CustomAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertController.m; sourceTree = "<group>"; };
-		7C8E7B981DB46C20000BDCE9 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
-		7C8E7B991DB46C20000BDCE9 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
 		7C8E7B9B1DB47053000BDCE9 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
 		7C8E7B9C1DB47053000BDCE9 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		7C9A1FE21D7ABCCF00F6F85B /* ActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheet.h; sourceTree = "<group>"; };
@@ -505,6 +508,24 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
+		7C2C471F1DB5FB2700EB5FDE /* BaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C47201DB5FB2700EB5FDE /* BaseViewModel.h */,
+				7C2C47211DB5FB2700EB5FDE /* BaseViewModel.m */,
+			);
+			path = BaseViewModel;
+			sourceTree = "<group>";
+		};
+		7C2C47231DB5FB7F00EB5FDE /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C472A1DB5FBF100EB5FDE /* GVUserDefaults+Properties.h */,
+				7C2C472B1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */ = {
 			isa = PBXGroup;
 			children = (
@@ -650,8 +671,8 @@
 		7C8E7B971DB46C08000BDCE9 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				7C8E7B981DB46C20000BDCE9 /* BaseViewModel.h */,
-				7C8E7B991DB46C20000BDCE9 /* BaseViewModel.m */,
+				7C2C47231DB5FB7F00EB5FDE /* UserDefaults */,
+				7C2C471F1DB5FB2700EB5FDE /* BaseViewModel */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -1196,12 +1217,14 @@
 				7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */,
 				7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */,
 				7CE48A3A1DA64AA1002539B6 /* NSDataEx.m in Sources */,
+				7C2C472C1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m in Sources */,
 				7CBC6D6A1D52F18200A0C443 /* NavigationController.m in Sources */,
 				7CEBA0491D76C3A800EA5AD1 /* BatchRequestAgent.m in Sources */,
 				7CF9DC891D48A7C4003DD4AC /* UIImage+HelperKit.m in Sources */,
 				7CEBA04D1D76C3A800EA5AD1 /* ProcessFilter.m in Sources */,
 				7CE48A371DA64AA1002539B6 /* DataSigner.m in Sources */,
 				7C7345FA1D62FAEC00C0DD20 /* DropDownMenuController.m in Sources */,
+				7C2C47221DB5FB2700EB5FDE /* BaseViewModel.m in Sources */,
 				7CBC6D671D52E36F00A0C443 /* CMViewController.m in Sources */,
 				7C8328AB1D5B0A8300F16033 /* CommonAlertView.m in Sources */,
 				7CEB9FAA1D6DD0A900EA5AD1 /* BadgeViewController.m in Sources */,
@@ -1212,7 +1235,6 @@
 				7C8328A31D5AC6A400F16033 /* LineMenuView.m in Sources */,
 				7C8328A71D5B076400F16033 /* AlertAction.m in Sources */,
 				7C1E3E601D537F7100EC8892 /* LoadingView.m in Sources */,
-				7C8E7B9A1DB46C20000BDCE9 /* BaseViewModel.m in Sources */,
 				7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */,
 				7CE48A3C1DA64AA1002539B6 /* RSADataSigner.m in Sources */,
 				7CE48A3B1DA64AA1002539B6 /* openssl_wrapper.m in Sources */,

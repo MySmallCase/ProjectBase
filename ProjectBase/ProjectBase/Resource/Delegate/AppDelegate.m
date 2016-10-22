@@ -10,7 +10,6 @@
 #import "NavigationController.h"
 #import "ViewController.h"
 
-
 @interface AppDelegate ()
 
 @end
@@ -24,9 +23,14 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.frame = [UIScreen mainScreen].bounds;
     
-    ViewController *controller = [[ViewController alloc] init];
-    NavigationController *nav = [[NavigationController alloc] initWithRootViewController:controller];
-    self.window.rootViewController = nav;
+    [self setupMainViewController];
+    
+//    if (!kUserDefault.appVersion || ![kUserDefault.appVersion isEqualToString:kVersion]) {
+//        [self setupIntroductionViewController];
+//    }else {
+//        [self setupMainViewController];
+//    }
+    
     [self.window makeKeyAndVisible];
     
     
@@ -41,6 +45,19 @@
     [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:kSocial_Sina_AppKey secret:kSocial_Sina_Secret RedirectURL:kSocial_Sina_RedirectURL];
     
     return YES;
+}
+
+
+//如果不是第一次启动 进入主界面
+- (void)setupMainViewController {
+    ViewController *controller = [[ViewController alloc] init];
+    NavigationController *nav = [[NavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = nav;
+}
+
+- (void)setupIntroductionViewController {
+//    IntroductionViewController *introductionVC = [[IntroductionViewController alloc] init];
+//    self.window.rootViewController = introductionVC;
 }
 
 

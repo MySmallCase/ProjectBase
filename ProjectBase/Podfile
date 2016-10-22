@@ -10,4 +10,8 @@ target 'ProjectBase' do
     pod 'EGOCache', '~> 2.1.3'
     pod 'SDWebImage', '~> 3.8.1'
     pod 'UMengSocialCOM', '~> 5.2.1'
+    pod 'GVUserDefaults', '~> 1.0.2'
+    pod 'JazzHands', '~> 2.0.8'
+    pod 'SMPageControl', '~> 1.2'
+    pod 'NYXImagesKit', '~> 2.3'
 end
