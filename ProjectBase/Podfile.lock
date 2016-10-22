@@ -21,6 +21,8 @@ PODS:
   - MJExtension (3.0.10)
   - MJRefresh (3.1.1)
   - NYXImagesKit (2.3)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -36,6 +38,7 @@ DEPENDENCIES:
   - MJExtension (~> 3.0.10)
   - MJRefresh (~> 3.1.1)
   - NYXImagesKit (~> 2.3)
+  - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.8.1)
   - SMPageControl (~> 1.2)
   - UMengSocialCOM (~> 5.2.1)
@@ -49,10 +52,11 @@ SPEC CHECKSUMS:
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
   MJRefresh: 70a47c5543b567cdaf70ead5a6e99ce820652eb9
   NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
   UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
-PODFILE CHECKSUM: 71248cd6e9acf685d0fd7e7857c3361e4c53ecb8
+PODFILE CHECKSUM: 28a40f7d4781d2c0cea5f9293b061d9a218eb9f8
 
 COCOAPODS: 1.0.1
