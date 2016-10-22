@@ -37,17 +37,18 @@
     alertView.buttonTitles = @[@"残忍拒绝", @"任性投票"];
     alertView.buttonTextColors = @[[UIColor redColor],[UIColor blackColor]];
     alertView.buttonTextFont = [UIFont boldSystemFontOfSize:11.0f];
+    alertView.buttonBgColors = @[[UIColor grayColor],[UIColor greenColor]];
     alertView.delegate = self;
     alertView.topCorner = YES;
     alertView.layerCorner = 5.0f;
-    alertView.time = 1.0f;
+//    alertView.time = 1.0f;
     alertView.lineViewColor = [UIColor blackColor];
     alertView.verticalLineColor = [UIColor blueColor];
     [alertView show];
 }
 
 - (void)clickedDialogButtonTouchUpInside:(CommonAlertView *)alertView buttonAtIndex:(NSInteger)buttonIndex {
-    
+    [alertView close];
 }
 
 - (UIView *)createDemoView {

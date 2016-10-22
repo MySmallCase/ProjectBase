@@ -205,12 +205,17 @@ CGFloat buttonSpacerHeight = 0;
     }
     
     NSInteger buttonBgColorCount = self.buttonBgColors.count;
-    CGFloat buttonWidth = container.bounds.size.width / [self.buttonTitles count];
+    CGFloat buttonWidth = 0.0;
+    if (buttonBgColorCount > 0) {
+        buttonWidth = (container.bounds.size.width - (buttonBgColorCount + 1) * margin) / [self.buttonTitles count];
+    }else {
+        buttonWidth = container.bounds.size.width / [self.buttonTitles count];
+    }
     
     for (int i=0; i<[self.buttonTitles count]; i++) {
         UIButton *closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
         if (buttonBgColorCount > 0) {
-            closeButton.frame = CGRectMake(i * buttonWidth + margin, container.bounds.size.height + margin - buttonHeight, buttonWidth - margin * 2, buttonHeight - margin * 2);
+            closeButton.frame = CGRectMake(i * buttonWidth + margin * (i + 1), container.bounds.size.height + margin - buttonHeight, buttonWidth, buttonHeight - margin * 2);
             closeButton.backgroundColor = self.buttonBgColors[i];
         }else {
             closeButton.frame = CGRectMake(i * buttonWidth, container.bounds.size.height - buttonHeight, buttonWidth, buttonHeight);
