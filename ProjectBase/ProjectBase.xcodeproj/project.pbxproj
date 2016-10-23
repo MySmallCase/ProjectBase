@@ -20,6 +20,8 @@
 		7C1E3E6F1D5383BB00EC8892 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E3E6E1D5383BB00EC8892 /* LoadingViewController.m */; };
 		7C2C47221DB5FB2700EB5FDE /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C47211DB5FB2700EB5FDE /* BaseViewModel.m */; };
 		7C2C472C1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C472B1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m */; };
+		7C2D05D51DBC889D0094D2B7 /* RKNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D05D41DBC889D0094D2B7 /* RKNotificationHub.m */; };
+		7C2D05D91DBCF7020094D2B7 /* HJCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D05D81DBCF7020094D2B7 /* HJCornerRadius.m */; };
 		7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C30D0871DA7768200C8A8EA /* RefreshManager.m */; };
 		7C4A8FBD1D475DC300717F5F /* UIView+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBC1D475DC300717F5F /* UIView+HelperKit.m */; };
 		7C4A8FC01D4765D300717F5F /* UIDevice+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A8FBF1D4765D300717F5F /* UIDevice+HelperKit.m */; };
@@ -153,6 +155,10 @@
 		7C2C47211DB5FB2700EB5FDE /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
 		7C2C472A1DB5FBF100EB5FDE /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
 		7C2C472B1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
+		7C2D05D31DBC889D0094D2B7 /* RKNotificationHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKNotificationHub.h; sourceTree = "<group>"; };
+		7C2D05D41DBC889D0094D2B7 /* RKNotificationHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKNotificationHub.m; sourceTree = "<group>"; };
+		7C2D05D71DBCF7020094D2B7 /* HJCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCornerRadius.h; sourceTree = "<group>"; };
+		7C2D05D81DBCF7020094D2B7 /* HJCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCornerRadius.m; sourceTree = "<group>"; };
 		7C30D0861DA7768200C8A8EA /* RefreshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshManager.h; sourceTree = "<group>"; };
 		7C30D0871DA7768200C8A8EA /* RefreshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshManager.m; sourceTree = "<group>"; };
 		7C4A8FBB1D475DC300717F5F /* UIView+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HelperKit.h"; sourceTree = "<group>"; };
@@ -550,6 +556,24 @@
 			path = UserDefaults;
 			sourceTree = "<group>";
 		};
+		7C2D05D21DBC889D0094D2B7 /* RKNotificationHub(小圆点提示) */ = {
+			isa = PBXGroup;
+			children = (
+				7C2D05D31DBC889D0094D2B7 /* RKNotificationHub.h */,
+				7C2D05D41DBC889D0094D2B7 /* RKNotificationHub.m */,
+			);
+			path = "RKNotificationHub(小圆点提示)";
+			sourceTree = "<group>";
+		};
+		7C2D05D61DBCF7020094D2B7 /* CornerRadius(图片圆角) */ = {
+			isa = PBXGroup;
+			children = (
+				7C2D05D71DBCF7020094D2B7 /* HJCornerRadius.h */,
+				7C2D05D81DBCF7020094D2B7 /* HJCornerRadius.m */,
+			);
+			path = "CornerRadius(图片圆角)";
+			sourceTree = "<group>";
+		};
 		7C30D0851DA7766F00C8A8EA /* RefreshManager(刷新) */ = {
 			isa = PBXGroup;
 			children = (
@@ -831,6 +855,8 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C2D05D61DBCF7020094D2B7 /* CornerRadius(图片圆角) */,
+				7C2D05D21DBC889D0094D2B7 /* RKNotificationHub(小圆点提示) */,
 				7C4D92D11DBC795A003C3876 /* FadeLabel(渐隐渐现文字) */,
 				7C79E0661DBB9F360097B201 /* CountDown(倒计时) */,
 				7C79E05E1DBB62790097B201 /* StarRateView(星星评分) */,
@@ -1340,6 +1366,7 @@
 				7C30D0881DA7768200C8A8EA /* RefreshManager.m in Sources */,
 				7C8E7B9D1DB47053000BDCE9 /* LoginViewModel.m in Sources */,
 				7C79E0701DBBB3180097B201 /* CountDownSimpleController.m in Sources */,
+				7C2D05D91DBCF7020094D2B7 /* HJCornerRadius.m in Sources */,
 				7CE48A391DA64AA1002539B6 /* MD5DataSigner.m in Sources */,
 				7C79E06D1DBBA5F90097B201 /* CountDownViewController.m in Sources */,
 				7C9A1FEB1D7E703000F6F85B /* ActionSheetCell.m in Sources */,
@@ -1364,6 +1391,7 @@
 				7C4D1E3A1D475AF1007CC4C3 /* main.m in Sources */,
 				7C7345EF1D62C6D100C0DD20 /* DropDownMenuView.m in Sources */,
 				7C02860E1D4CF12700F688ED /* NSArray+HelperKit.m in Sources */,
+				7C2D05D51DBC889D0094D2B7 /* RKNotificationHub.m in Sources */,
 				7CEB9FB01D6DD94900EA5AD1 /* BadgeView.m in Sources */,
 				7CCE2BD61D49D8A600F87AF4 /* UIImageView+HelperKit.m in Sources */,
 			);
