@@ -41,9 +41,6 @@
 }
 
 - (void)updateTimeInVisibleCells {
-    
-    DBLog(@"0.01");
-    
     NSArray  *cells = self.tableView.visibleCells; //取出屏幕可见ceLl
     for (UITableViewCell *cell in cells) {
         cell.textLabel.text = [self getNowTimeWithString:self.array[cell.tag]];

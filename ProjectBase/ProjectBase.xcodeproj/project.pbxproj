@@ -28,6 +28,8 @@
 		7C4D1E481D475AF1007CC4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D1E461D475AF1007CC4C3 /* LaunchScreen.storyboard */; };
 		7C4D1E531D475AF1007CC4C3 /* ProjectBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E521D475AF1007CC4C3 /* ProjectBaseTests.m */; };
 		7C4D1E5E1D475AF1007CC4C3 /* ProjectBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */; };
+		7C4D92D41DBC7964003C3876 /* FadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D92D31DBC7964003C3876 /* FadeLabel.m */; };
+		7C4D92D81DBC7F8C003C3876 /* FadeLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D92D71DBC7F8C003C3876 /* FadeLabelController.m */; };
 		7C66DEBB1D47706000D802BA /* UIColor+HelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */; };
 		7C7345EF1D62C6D100C0DD20 /* DropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7345EE1D62C6D100C0DD20 /* DropDownMenuView.m */; };
 		7C7345F21D62D85100C0DD20 /* arrow_down_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7345F01D62D85100C0DD20 /* arrow_down_icon@2x.png */; };
@@ -168,6 +170,10 @@
 		7C4D1E591D475AF1007CC4C3 /* ProjectBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4D1E5D1D475AF1007CC4C3 /* ProjectBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectBaseUITests.m; sourceTree = "<group>"; };
 		7C4D1E5F1D475AF1007CC4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4D92D21DBC7964003C3876 /* FadeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeLabel.h; sourceTree = "<group>"; };
+		7C4D92D31DBC7964003C3876 /* FadeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeLabel.m; sourceTree = "<group>"; };
+		7C4D92D61DBC7F8C003C3876 /* FadeLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeLabelController.h; sourceTree = "<group>"; };
+		7C4D92D71DBC7F8C003C3876 /* FadeLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeLabelController.m; sourceTree = "<group>"; };
 		7C66DEB91D47706000D802BA /* UIColor+HelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HelperKit.h"; sourceTree = "<group>"; };
 		7C66DEBA1D47706000D802BA /* UIColor+HelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperKit.m"; sourceTree = "<group>"; };
 		7C7345ED1D62C6D100C0DD20 /* DropDownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownMenuView.h; sourceTree = "<group>"; };
@@ -651,6 +657,25 @@
 			path = ProjectBaseUITests;
 			sourceTree = "<group>";
 		};
+		7C4D92D11DBC795A003C3876 /* FadeLabel(渐隐渐现文字) */ = {
+			isa = PBXGroup;
+			children = (
+				7C4D92D51DBC7F78003C3876 /* Demo */,
+				7C4D92D21DBC7964003C3876 /* FadeLabel.h */,
+				7C4D92D31DBC7964003C3876 /* FadeLabel.m */,
+			);
+			path = "FadeLabel(渐隐渐现文字)";
+			sourceTree = "<group>";
+		};
+		7C4D92D51DBC7F78003C3876 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7C4D92D61DBC7F8C003C3876 /* FadeLabelController.h */,
+				7C4D92D71DBC7F8C003C3876 /* FadeLabelController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		7C7345EC1D62C43F00C0DD20 /* DropDownMenuView(下拉菜单) */ = {
 			isa = PBXGroup;
 			children = (
@@ -806,6 +831,7 @@
 		7CBE8C1A1D508E9F0032A162 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				7C4D92D11DBC795A003C3876 /* FadeLabel(渐隐渐现文字) */,
 				7C79E0661DBB9F360097B201 /* CountDown(倒计时) */,
 				7C79E05E1DBB62790097B201 /* StarRateView(星星评分) */,
 				7CF7ED6A1DB4647C0025F7D1 /* Login(第三方登录) */,
@@ -1275,8 +1301,10 @@
 			files = (
 				7C9A1FE41D7ABCCF00F6F85B /* ActionSheet.m in Sources */,
 				7CEBA04A1D76C3A800EA5AD1 /* checkNetwork.m in Sources */,
+				7C4D92D81DBC7F8C003C3876 /* FadeLabelController.m in Sources */,
 				7CBC6D6D1D52F2B800A0C443 /* ViewController.m in Sources */,
 				7CBE8C1F1D50C31D0032A162 /* NSDate+HelperKit.m in Sources */,
+				7C4D92D41DBC7964003C3876 /* FadeLabel.m in Sources */,
 				7CF9DC861D48A668003DD4AC /* UIFont+HelperKit.m in Sources */,
 				7CE48A3A1DA64AA1002539B6 /* NSDataEx.m in Sources */,
 				7C2C472C1DB5FBF100EB5FDE /* GVUserDefaults+Properties.m in Sources */,
